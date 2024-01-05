@@ -1,0 +1,6 @@
+node_modules/
+my_own_testing_folder/
+*.pdf
+
+package-lock.json
+.env
