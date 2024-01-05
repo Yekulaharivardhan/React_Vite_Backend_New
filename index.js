@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import cors from "cors";
 const app = express();
 const collectionName = "usercollections";
-
+ 
 mongoose.connect('mongodb://127.0.0.1:27017/CRUD');
 app.use(express.json());
 app.use(cors());
