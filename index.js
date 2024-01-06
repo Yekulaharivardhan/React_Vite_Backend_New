@@ -12,7 +12,7 @@ app.use(express.json()); // Middleware to parse JSON request bodies
 const userSchema = new mongoose.Schema({
   name: String,
   age: String
-});
+}); 
 const userLoginSchema = new mongoose.Schema({
   first_name: String,
   last_name: String,
